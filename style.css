@@ -24,7 +24,6 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-	
 }
 
 .countdowntimer{
@@ -47,32 +46,6 @@
 
 .size_xl {
    font-size:300px;
-/*   border-width: 8px;
-   border-radius: 6px;*/
-}
-
-.size_lg {
-   font-size:40px;
-/*   border-width: 7px;
-   border-radius: 5px;*/
-}
-
-.size_md {
-   font-size:30px;
-/*   border-width: 5px;
-   border-radius: 4px;*/
-}
-
-.size_sm {
-   font-size:20px;
-/*   border-width: 3px;
-   border-radius: 3px;*/
-}
-
-.size_xs {
-   font-size:15px;
-   /*border-width: 2px;
-   border-radius: 2px;*/
 }
 
 .lang-rtl {
@@ -84,7 +57,6 @@
 	float: center;
 	font-size: 75%;
 	text-align: center;
-	/*border-right: 5px solid #F0068E;*/
 }
 
 .timerDisplay > span.displaySection:last-child {
