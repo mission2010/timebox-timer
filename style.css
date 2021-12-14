@@ -6,14 +6,28 @@
  *  Please attribute the author if you use it.
  */
 
-#mainFrame{
-	vertical-align:middle;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainFrame{
+    width: 100%;
 	text-align: center;
-	padding-top: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 	
 }
 
-#countdowntimer{
+.countdowntimer{
 	background-color: #00FF00;
 	text-align: center;
 }
