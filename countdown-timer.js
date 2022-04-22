@@ -16,7 +16,7 @@ window.onload = function() {
 		displayFormat : "MS",
 		timeUp : timeUp,
 		pauseButton : "pauseButton",
-		beforeExpiryTime : "00:00:00:06",
+		beforeExpiryTime : "00:00:00:05",
 		beforeExpiryTimeFunction : anounceTimeLeft,
 		tickInterval : 1,
 		});
@@ -60,7 +60,9 @@ window.onload = function() {
 	};
 	
 	function timeUp() {
-		var audio = new Audio("alerts/voice_time_is_up.mp3");
+		setBackgroundColor("#ff0000");
+        
+        var audio = new Audio("alerts/voice_time_is_up.mp3");
 		audio.play();
 	};
 	
@@ -68,4 +70,9 @@ window.onload = function() {
 		var audio = new Audio("alerts/voice_five_four_three_two_one.mp3");
 		audio.play();
 	};
+    
+    function setBackgroundColor(colorHex){
+        $(".countdowntimer").css( "background-color", colorHex );
+        $("#timer").css( "background-color", colorHex );
+    };
 };
